@@ -17,7 +17,7 @@ export const SSOAdvancedSettings = ({ form }: { form: UseFormReturn<SSOConfigFor
         <FormItemLayout
           layout="flex-row-reverse"
           label="OIDC Issuer"
-          description="The OIDC issuer URL of your identity provider. Required for enterprise-managed MCP authentication."
+          description="The OIDC issuer URL of your identity provider."
         >
           <FormControl>
             <Input placeholder="https://your-org.okta.com" {...field} />
