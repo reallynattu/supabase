@@ -25,7 +25,7 @@ export const CollapsibleCardFormSection = ({
     </CollapsibleTrigger>
     <CollapsibleContent
       className={cn(
-        'overflow-hidden pt-2 data-closed:animate-collapsible-up data-open:animate-collapsible-down'
+        '[overflow-y:clip] pt-2 data-closed:animate-collapsible-up data-open:animate-collapsible-down'
       )}
     >
       {description && <p className="text-xs text-foreground-lighter mb-6">{description}</p>}
