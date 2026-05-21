@@ -78,9 +78,9 @@
       "import": "./src/CodeBlock/index.tsx",
       "types": "./src/CodeBlock/index.tsx"
     },
-    "./CollapsibleCardFormSection": {
-      "import": "./src/CollapsibleCardFormSection.tsx",
-      "types": "./src/CollapsibleCardFormSection.tsx"
+    "./CollapsibleCardSection": {
+      "import": "./src/CollapsibleCardSection.tsx",
+      "types": "./src/CollapsibleCardSection.tsx"
     },
     "./CommandMenu/api/Badges": {
       "import": "./src/CommandMenu/api/Badges.tsx",

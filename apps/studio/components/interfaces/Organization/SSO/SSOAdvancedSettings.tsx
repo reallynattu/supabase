@@ -1,12 +1,12 @@
 import type { UseFormReturn } from 'react-hook-form'
 import { FormControl, FormField, Input } from 'ui'
-import { CollapsibleCardFormSection } from 'ui-patterns/CollapsibleCardFormSection'
+import { CollapsibleCardSection } from 'ui-patterns/CollapsibleCardSection'
 import { FormItemLayout } from 'ui-patterns/form/FormItemLayout/FormItemLayout'
 
 import type { SSOConfigFormSchema } from './SSOConfig'
 
 export const SSOAdvancedSettings = ({ form }: { form: UseFormReturn<SSOConfigFormSchema> }) => (
-  <CollapsibleCardFormSection
+  <CollapsibleCardSection
     title="Advanced settings"
     description="Required for enterprise-managed MCP authentication"
   >
@@ -25,5 +25,5 @@ export const SSOAdvancedSettings = ({ form }: { form: UseFormReturn<SSOConfigFor
         </FormItemLayout>
       )}
     />
-  </CollapsibleCardFormSection>
+  </CollapsibleCardSection>
 )
