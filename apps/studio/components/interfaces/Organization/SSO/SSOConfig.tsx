@@ -274,6 +274,7 @@ export const SSOConfig = () => {
                               >
                                 Learn more
                               </InlineLink>
+                              .
                             </>
                           }
                         >
