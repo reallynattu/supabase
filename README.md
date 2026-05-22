@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://lottie.host/9d6fc0ef-59f8-442e-9bd6-d71df7a26c83/FnTRwlASIo.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://lottie.host/2eb78261-7926-41bf-a00d-5401b6d96676/5JA2G6bcTb.svg">
-    <img alt="Supabase" src="https://lottie.host/2eb78261-7926-41bf-a00d-5401b6d96676/5JA2G6bcTb.svg" width="550">
+    <img alt="Supabase" src="https://lottie.host/2eb78261-7926-41bf-a00d-5401b6d96676/5JA2G6bcTb.svg" width="100%">
   </picture>
 </p>
 
